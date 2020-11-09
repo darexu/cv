@@ -2,44 +2,186 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Резюме</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/ruby.svg" />
+    <title>Бычков Юрий</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/LineIcons.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-      	<div class="six columns">
-          <div class="contacts">
-            <h2>Бычков Юрий</h2>
-            <h3>Разработчик</h3>
-            <p>Телефон: <a href="tel:+380660000000">38 066 000 00 00</a></p>
-            <p>E-mail: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/darexu/" target="_blank">github.com/darexu/</a></p>
-            <p>Город Полтава. Готов переехать</p>
-            <p>Зарплатные ожидания: 500$</p>
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="six columns">
+            Бычков Юрий
+          </div>
+          <div class="six columns">
+            Ruby on Rails разработчик
           </div>
         </div>
-        <div class="six columns">
-          <img src="https://st3.depositphotos.com/15648834/17930/v/450/depositphotos_179308454-stock-illustration-неизвестный-человек-силуэт-с-очки.jpg" title="photo" alt="photo" height="220">
-        </div>
-      </div>
-      <div class="row">
-        <h5>Навыки</h5>
-        <ul>
-          <li>Ruby</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Git</li>
-          <li>SQL</li>
-        </ul>
-        <h5>Образование</h5>
-        <p>Курс интенсив по Ruby on Rails «Хороший программист» <a href="https://goodprogrammer.ru" target="_blank">goodprogrammer.ru</a></p>
       </div>
     </div>
-   </body>
+    <div class="container">
+      <div class="row mt-20">
+        <div class="six columns photo">
+          <img src="images/photo.jpeg" title="photo" alt="photo" height="240">
+        </div>
+        <div class="six columns contacts">
+          <p>
+            <i class="lni lni-phone lni-lg"></i>
+            <a href="tel:+380955253950">38 095 525 39 50</a>
+          </p>
+          <p>
+            <i class="lni lni-envelope lni-lg"></i>
+            <a href="mailto:bychkov.yu@yahoo.com">bychkov.yu@yahoo.com</a>
+          </p>
+          <p>
+            <i class="lni lni-telegram-original lni-lg"></i>
+            <a href="https://t.me/darexu" target="_blank">t.me/darexu</a> — предпочтительный канал связи
+          </p>
+          <p>
+            <i class="lni lni-github-original lni-lg"></i>
+            <a href="https://github.com/darexu/" target="_blank">github.com/darexu/</a>
+          </p>
+          <p>
+            <i class="lni lni-map-marker lni-lg"></i>
+            Полтава, Украина. Возможен переезд или удаленно
+          </p>
+        </div>
+      </div>
+      <div class="row mt-20">
+        <div class="twelve columns">
+          <h4>Скилы</h4>
+          <table class="u-full-width">
+            <tbody class="table">
+              <tr>
+                <td class="title"><img src="images/ruby.svg" height="25">Ruby</td>
+                <td>
+                  <p>Принципы <b>ООП</b>: классы, наследование, объекты, переменные и методы экземпляров</p>
+                  <p>Чтение файлов</p>
+                  <p><b>JSON</b> и <b>XML</b></p>
+                  <p>Работа с сетью</p>
+                  <p>Синтаксис, <b>code style</b>. Без грамотно оформленного кода никуда</p>
+                  <p><b>Ruby Way</b>: Разметка, блоки</p>
+                  <p><b>RubyGems</b></p>
+                  <p>Дебагер</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="title"><img src="images/ror.svg" height="25">Ruby on Rails</td>
+                <td>
+                  <p>Модели, миграции</p>
+                  <p>Архитектура приложений <b>MVC</b></p>
+                  <p>Модель <b>ActiveRecord</b> чтобы отдать создание SQL - запросов на аутсорс</p>
+                  <p>Для подключения аccет <b>Webpacker</b> и <b>Asset pipeline</b></p>
+                  <p><b>Bundler</b> чтобы не потерять и установить нужные версии gem'ов</p>
+                  <p><b>Devise</b> для опознания своих среди чужих</p>
+                  <p><b>I18n</b> для локализации приложения</p>
+                  <p><b>Fog AWS, Carrierwave</b> для загрузки картинок на сервис <b>Amazon S3</b></p>
+                  <p><b>reCAPTCHA</b> — и боты не пройдут</p>
+                  <p><b>ActionMailer</b> и гем <b>Mailjet</b> для отправки писем</p>
+                  <p>Библиотека <b>Rspec</b> и гем <b>Factory Bot</b> для тестирования. С ними не пропустить ошибку в продакшин</p>
+                  <p><b>Capybara</b>, <b>BDD</b>, <b>TDD</b></p>
+                  <p><b>Pundit</b> для фейсконтроля</p>
+                  <p><b>Оmniauth</b> для авторизации через внешние сервисы</p>
+                  <p>Библиотека <b>ActionCable</b> для общения сервера и клиента по протоколу <b>WebSocket</b></p>
+                  <p><b>Jsonapi Serializer</b> чтобы отправить через WebSocket только нужные данные</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="title"><img src="images/git.svg" height="25"></i>Git</td>
+                <td>
+                  <p>Система контроля версий <b>Git</b>. Без неё не обойтись</p>
+                  <p><b>Github</b> для хранения репозиториев</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="title"><img src="images/db.svg" height="25"></i>База данных</td>
+                <td>
+                  <p><b>SQLite</b></p>
+                  <p><b>PostgreSQL</b></p>
+                  <p><b>Redis</b> + <b>Resque</b> для фоновых задач</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="title"><img src="images/frontend.svg" height="25"></i>Front-end</td>
+                <td>
+                  <p><b>HTML</b>, <b>CSS</b>, адаптивная верстка</p>
+                  <p><b>Bootstrap</b> и <b>Skeleton</b> для ускорения создания верстки</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="title"><img src="images/devops.svg" height="25"></i>DevOps</td>
+                <td>
+                  <p><b>VPS</b></p>
+                  <p>Настройка домена и его записей</p>
+                  <p><b>Passenger</b> + <b>Nginx</b></p>
+                  <p><b>Capistrano</b> чтобы процесс дпелоя был не трудозатратный</p>
+                  <p><b>Heroku</b></p>
+                  <p><b>Linux</b>. Умею выходить из Vim'а</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4>Учебные приложения</h4>
+          <table class="u-full-width">
+            <tbody class="about">
+              <tr>
+                <td>
+                  <p><b>Bbq</b> – приложение для организации встреч. <a href="https://shashlik.site" target="_blank" class="link">shashlik.site</a><i class="lni lni-github-original lni-lg"></i>
+                  <a href="https://github.com/darexu/bbq" target="_blank">github.com/darexu/bbq</a></p>
+                  <p>Игра <b>«Кто хочет стать миллионером?»</b>. <a href="http://hhsm.herokuapp.com" target="_blank" class="link">hhsm.herokuapp.com</a><i class="lni lni-github-original lni-lg"></i>
+                  <a href="https://github.com/darexu/khsm" target="_blank">github.com/darexu/khsm</a></p>
+                  <p><b>Instatalk</b> – онлайн чат. <a href="https://aconlinechat.herokuapp.com/" target="_blank" class="link">aconlinechat.herokuapp.com</a><i class="lni lni-github-original lni-lg"></i>
+                  <a href="https://github.com/darexu/instatalk" target="_blank">github.com/darexu/instatalk</a></p>
+                  <p><b>Askme</b> – дает возможность задавать вопросы другим пользователя. <a href="https://mymegaquestion.herokuapp.com/" target="_blank" class="link">mymegaquestion.herokuapp.com</a><i class="lni lni-github-original lni-lg"></i>
+                  <a href="https://github.com/darexu/askme" target="_blank">github.com/darexu/askme</a></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4>Образование</h4>
+          <table class="u-full-width">
+            <tbody class="about">
+              <tr>
+                <td>
+                  <h5>Курс онлайн-интенсив по Ruby on Rails «Хороший программист»</h5>
+                  <p><a href="https://goodprogrammer.ru" target="_blank" class="link">goodprogrammer.ru</a>03.2020 – 11.2020</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Национальный университет «Полтавская политехника имени Юрия Кондратюка»</h5>
+                  <p>Магистр. Отраслевое машиностроение <br>
+                  <a href="https://nupp.edu.ua" target="_blank" class="link">nupp.edu.ua</a>09.2015 – 12.2019</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <h4>Опыт работы</h4>
+          <table class="u-full-width">
+            <tbody class="about">
+              <tr>
+                <td>
+                  <h5>ООО «Нова пошта»</h5>
+                  <p>Специалист по обслуживанию физических и юридических лиц<br>
+                  Обязанности: прием звонков, консультации по услугам, оформление заявок.<br>
+                  <a href="https://novaposhta.ua/ru" target="_blank" class="link">novaposhta.ua</a>07.2014 – настоящее время</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="twelve columns">
+          <h4>О себе</h4>
+          <p>В процессе прохождения курса «Хороший программист» получил опыт создания Rails – приложений. Планирую учиться новому и увеличивать свои знания по web – технологиям, в частности учить Javascript и углубляться в Rails. Хочу найти работу в дружелюбной команде.</p>
+          <p>Владение языками: русский – носитель, украинский – носитель, английский – B1, Intermediate</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

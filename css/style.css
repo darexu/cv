@@ -1,3 +1,95 @@
-.contacts > * {
-	margin-bottom: 0
+body {
+  color: #214252;
 }
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.main {
+  font-size: 25px;
+  text-align: center;
+  background-color: #214252;
+  color: #e5e5e5;
+  padding: 10px 0px;
+}
+
+.photo img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.contacts {
+}
+
+.contacts > * {
+  margin-bottom: 24px;
+  font-size: 17px;
+}
+
+.table p {
+  margin-bottom: 0px;
+}
+
+.table .title {
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.table .title img {
+  margin-right: 5px;
+  vertical-align: middle
+}
+
+.lni {
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+td:first-child {
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.about p {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.about img {
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+  .contacts > * {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 850px) {
+  .contacts > * {
+    margin-bottom: 17px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 645px) {
+  .six.columns {
+    width: 100%;
+  }
+
+  .contacts {
+    margin-top: 20px;
+  }
+}
+
+
+
