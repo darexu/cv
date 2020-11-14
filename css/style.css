@@ -96,6 +96,10 @@ td:first-child {
   .contacts {
     margin-top: 20px;
   }
+
+  .apps td {
+  font-size: 17px;
+  }
 }
 
 
