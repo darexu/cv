@@ -32,6 +32,11 @@ body {
   margin-bottom: 0px;
 }
 
+.table .mboth-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .table .title {
   font-weight: bold;
   vertical-align: top;
